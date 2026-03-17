@@ -1,6 +1,7 @@
 "use client"
 
 import React, { useState, ChangeEvent, FormEvent } from "react";
+import Man from "./man";
 
 interface FormData {
   name: string;
@@ -48,6 +49,7 @@ function App() {
       <h3>Output:</h3>
       <p>Name: {formData.name}</p>
       <p>Strength: {formData.strength}</p>
+      <Man/>
     </div>
   );
 }
